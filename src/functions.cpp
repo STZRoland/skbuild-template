@@ -5,10 +5,10 @@
 #include "../include/functions.h"
 
 
-int vector_sum(std::vector<int> &vector) {
+int sum_of_list(std::vector<int> &vector) {
     int sum = 0;
-    for (auto &i: vector) {
-        sum += i;
+    for (int num : vector) {
+        sum += num;
     }
     return sum;
 }

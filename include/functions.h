@@ -6,4 +6,4 @@
 
 #include <iostream>
 
-int vector_sum(std::vector<int> &vector);
+int sum_of_list(std::vector<int> &vector);
