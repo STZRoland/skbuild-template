@@ -2,6 +2,6 @@
 
 from __future__ import annotations
 
-from ._python_lib import __doc__, sum_of_list, subtract, Vector
+from ._python_lib import __doc__, sum_of_list, subtract, Vector, sum_vectors, sum_python_vectors
 
-__all__ = ["__doc__", "sum_of_list", "subtract", "Vector"]
+__all__ = ["__doc__", "sum_of_list", "subtract", "Vector", "sum_vectors", "sum_python_vectors"]

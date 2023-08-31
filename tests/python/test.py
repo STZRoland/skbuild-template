@@ -1,4 +1,13 @@
-from skbuild_template import sum_of_list, Vector, subtract
+from skbuild_template import sum_of_list, Vector, subtract, sum_vectors, sum_python_vectors
+
+
+class PythonVector:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __repr__(self):
+        return f"PV ( {self.x}, {self.y} )"
 
 
 def main():
@@ -17,8 +26,15 @@ def main():
     print(f"Vector length: {vec.length()}.")
     print()
 
-    help(sum_of_list)
-    help(Vector)
+    v1 = Vector(2, 2)
+    v2 = Vector(3, 3)
+    v3 = sum_vectors(v1, v2)
+    print(f"Sum of {v1} and {v2} is {v3}")
+
+    v1 = PythonVector(2, 2)
+    v2 = PythonVector(3, 3)
+    v3 = sum_python_vectors(v1, v2)
+    print(f"Sum of python vectors {v1} and {v2} is {v3}")
 
 
 if __name__ == '__main__':
