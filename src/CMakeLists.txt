@@ -1,11 +1,11 @@
 set(CPP_LIB_NAME "cpp_lib")
 
 set(SRC_FILES
-    ${PROJECT_SOURCE_DIR}/src/functions.cpp
+    ${PROJECT_SOURCE_DIR}/src/implementation.cpp
 )
 
 set(HDR_FILES
-    ${PROJECT_SOURCE_DIR}/include/functions.h
+    ../include/cpp_lib/implementation.h
 )
 
 add_library(${CPP_LIB_NAME}

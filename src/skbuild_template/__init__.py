@@ -2,6 +2,6 @@
 
 from __future__ import annotations
 
-from .skbuild_template import __doc__, sum_of_list, subtract
+from ._python_lib import __doc__, sum_of_list, subtract, Vector
 
-__all__ = ["__doc__", "__version__", "sum_of_list", "subtract"]
+__all__ = ["__doc__", "sum_of_list", "subtract", "Vector"]

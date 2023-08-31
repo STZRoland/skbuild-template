@@ -1,4 +1,4 @@
-set(PYTHON_LIB_NAME "skbuild_template")
+set(PYTHON_LIB_NAME "_python_lib")
 
 set(PYBIND11_NEWPYTHON ON)
 find_package(pybind11)
